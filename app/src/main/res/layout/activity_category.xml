@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.quiz.mnnit.wissenjson.Category"
+    android:background="#1f136a">
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="General Knowledge"
+        android:id="@+id/gkb"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:background="@drawable/combined"
+        android:textColor="@drawable/txtcolor" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Geography"
+        android:id="@+id/geob"
+        android:layout_below="@+id/gkb"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/combined"
+        android:textColor="@drawable/txtcolor" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:id="@+id/histb"
+        android:layout_below="@+id/geob"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/combined"
+        android:textColor="@drawable/txtcolor" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Mythology"
+        android:id="@+id/mythb"
+        android:layout_below="@+id/histb"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/combined"
+        android:textColor="@drawable/txtcolor" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Politics"
+        android:id="@+id/polb"
+        android:layout_below="@+id/mythb"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/combined"
+        android:textColor="@drawable/txtcolor" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Sports"
+        android:id="@+id/spd"
+        android:layout_below="@+id/polb"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/combined"
+        android:textColor="@drawable/txtcolor"/>
+</RelativeLayout>
